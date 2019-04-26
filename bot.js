@@ -1,11 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['494469169862148116','494469169862148116'];
+const developers = ['547733164362170369'];
 
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`-`,'https://www.twitch.tv/MeeRcY')
   client.user.setStatus("idle")
 });
 
